@@ -71,7 +71,7 @@ class ConversorEn:
             if(self.quitType ==  "y"):
                 clearChat()
                 printed()
-                return print("Alrigth, see you late :). Tnks for playing!")
+                return print("Alright, see you late :). Tnks for playing!")
             else:
                 clearChat()
                 printed()
@@ -90,7 +90,7 @@ class ChooseTheLang:
             print(lang)
 
             if(lang == "EN"):
-                print("Starting the conversor in 'English' main language")
+                print("Starting the converter in 'English' main language")
                 clearChat()
                 ConversorEn()
 
