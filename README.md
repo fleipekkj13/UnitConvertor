@@ -8,10 +8,15 @@
 <h2>How to use?</h2>
 <p>Start cloning the path.<br>
 01. Create a folder on your computer.
-<br>1.1.Be sure you have Python Installed, open CMD and type "Python" if is be installed. 
+<br>1.1.Be sure you have Python Installed, open CMD and type "Python" if is be installed ( if you don't have Python installed, enter in <a href="https://www.python.org/">Python Org</a> and Install the last version. 
 <br>02.Enter in folder and open the terminal or CMD.<br>If you use Windows, try:
 <br><blockquote> - WIN + R<br> - Search: cmd. And press enter.<br> - Type: cd "your/file/path/"</blockquote>
-<br>03. Type: python ./main.py<br>04. Enjoy :D</p>
+<br>If you use Linux, try:
+<br><blockquote> - CTRL + ALT + T. And Search: cd "/your/file/path/"</blockquote>
+
+<br>03. Type: python ./main.py
+
+<br><br>04. Enjoy :D</p>
 
 <p>
 Formula Types:
