@@ -1,7 +1,7 @@
 import sys
 import os
 from time import sleep
-sys.path.insert(1,'./Conversos/')
+sys.path.insert(1,'../Conversos/')
 from Conversos.TypeMode import TypeMode
 from Conversos.textfile import printed
 
@@ -57,7 +57,7 @@ class ConversorEn:
             if(self.quitType ==  "s"):
                 clearChat()
                 printed()
-                return print("Alrigth, see you late :). Tnks for playing!")
+                return print("Alright, see you late :). Tnks for playing!")
             else:
                 clearChat()
                 printed()
@@ -75,7 +75,7 @@ class ChooseTheLang:
             lang = str(input("EN / PT : "))
 
             if(lang == "EN"):
-                print("Starting the conversor in 'English' main language")
+                print("Starting the converter in 'English' main language")
                 clearChat()
                 ConversorEn()
 
