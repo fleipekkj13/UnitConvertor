@@ -1,7 +1,7 @@
 import sys
 import os
 from time import sleep
-sys.path.insert(1,'../Conversos/')
+sys.path.insert(1,'./Conversos/')
 from Conversos.TypeMode import TypeMode
 from Conversos.textfile import printed
 
