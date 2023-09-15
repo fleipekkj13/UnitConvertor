@@ -1,4 +1,4 @@
-<img src="./image/title.png">
+<img src="./image/title2.png">
 Formula Types:
 
 K -> C: C = K - 273;<br>
