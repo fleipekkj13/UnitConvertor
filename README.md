@@ -6,12 +6,21 @@
 <br><br>
 
 <h2>How to use?</h2>
-<p>Start cloning the path.<br> 01. Create a folder on your computer.<br>1.1.Be sure you have Python Installed, open CMD and type "Python" if is be installed. <br>02.Enter in folder and open the terminal or CMD.<br>If you use Windows, try:<br><blockquote> - WIN + R<br> - Search: cmd. And press enter.<br> - Type: cd "your/file/path/"</blockquote>
-<code></code><br>03. Type: python ./main.py <code></code><br>04. Enjoy :D</p>
+<p>Start cloning the path.<br><br>
+01. Create a folder on your computer.
+<br><br>1.1.Be sure you have Python Installed, open CMD and type "Python" if is be installed, just continue the tutorial. ( if you don't have Python installed, enter in <a href="https://www.python.org/">Python Org</a> and Install the last version. 
+<br><br>02.Enter in folder and open the terminal or CMD.<br>If you use Windows, try:
+<br><br><blockquote> - WIN + R<br> - Search: cmd. And press enter.<br> - Type: cd "your/file/path/"</blockquote>
+<br><br>If you use Linux, try:
+<br><br><blockquote> - CTRL + ALT + T. And Search: cd "/your/file/path/"</blockquote>
 
+<br><br>03. Type: python ./main.py
+
+<br><br>04. Enjoy :D</p>
+
+
+<h2>Formula Types:</h2>
 <p>
-Formula Types:
-
 K -> C: C = K - 273;<br>
 K -> F: (K-273) * 1,8 + 32;<br>
 C -> K: K = C + 273;<br>
