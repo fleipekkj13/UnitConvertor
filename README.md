@@ -18,9 +18,9 @@
 
 <br><br>04. Enjoy :D</p>
 
-<p>
-Formula Types:
 
+<h2>Formula Types:</h2>
+<p>
 K -> C: C = K - 273;<br>
 K -> F: (K-273) * 1,8 + 32;<br>
 C -> K: K = C + 273;<br>
