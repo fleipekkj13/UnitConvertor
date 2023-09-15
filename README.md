@@ -1,6 +1,4 @@
-<h1>That's a simple project to training.</h1>
-
-<p>
+<img src="./image/title.png">
 Formula Types:
 
 K -> C: C = K - 273;<br>
