@@ -5,6 +5,10 @@
 <p>I made this project, just for study in Python.<p>
 <br><br>
 
+<h2>How to use?</h2>
+<p>Start cloning the path.<br> 01. Create a folder on your computer.<br>1.1.Be sure you have Python Installed, open CMD and type "Python" if is be installed. <br>02.Enter in folder and open the terminal or CMD.<br>If you use Windows, try:<br><blockquote> - WIN + R<br> - Search: cmd. And press enter.<br> - Type: cd "your/file/path/"</blockquote>
+<code></code><br>03. Type: python ./main.py <code></code><br>04. Enjoy :D</p>
+
 <p>
 Formula Types:
 
