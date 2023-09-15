@@ -16,19 +16,33 @@ else:
         os.system("cls")
 class ConversorPt:
     def __init__(self):
+        printed()
         print("SE VOCÊ ENVIAR QUALQUER OUTRO VALOR QUE NÃO SEJA NÚMERO, VOCÊ ESTARA SAINDO DO CONVERSOR!")
         try:
+            clearChat()
+            printed()
             self.value = int(input("Insira apenas o valor de conversão:"))
+            clearChat()
+            printed()
             self.valueType = str(input("Qual escala é o seu valor? (C / F / K)")).capitalize()
+            clearChat()
+            printed()
             self.typeMode = str(input("Você deseja converter para qual tipo? (C / F / K)")).capitalize()
-
+            clearChat()
+            printed()
             TypeMode().conversor(self.value,self.valueType,self.typeMode)
         
         except:
+            clearChat()
+            printed()
             self.quitType = input("Você tem certeza que deseja sair?: (s/n) ").lower()
             if(self.quitType ==  "s"):
+                clearChat()
+                printed()
                 return print("OK, até mais:) Obrigado por jogar!")
             else:
+                clearChat()
+                printed()
                 print("Porfavor Aguarde!")
                 sleep(2)
                 os.system("cls")
@@ -54,7 +68,7 @@ class ConversorEn:
             clearChat()
             printed()
             self.quitType = input("ARE YOU SURE YOU WANT TO QUIT?: (y/n) ").lower()
-            if(self.quitType ==  "s"):
+            if(self.quitType ==  "y"):
                 clearChat()
                 printed()
                 return print("Alrigth, see you late :). Tnks for playing!")
@@ -72,14 +86,15 @@ class ChooseTheLang:
         print("Por favor escolha a linguagem:\nPlease Select The Language: ")
         print("\n")
         try:
-            lang = str(input("EN / PT : "))
+            lang = str(input("EN / PT : ")).upper()
+            print(lang)
 
             if(lang == "EN"):
                 print("Starting the conversor in 'English' main language")
                 clearChat()
                 ConversorEn()
 
-            else:
+            elif(lang == "PT"):
                 print("Iniciando o conversor no idioma principal 'Português'")
                 clearChat()
                 ConversorPt()
